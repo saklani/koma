@@ -1,5 +1,5 @@
 <script>
-	import Header from "./Header.svelte";
+	import Hero from "../lib/components/index/Hero.svelte";
 </script>
 
 <svelte:head>
@@ -7,8 +7,8 @@
 	<meta name="description" content="The NFT Marketplace for Comics" />
 </svelte:head>
 
-<section class="hero">
-	<Header />
+<section>
+	<Hero />
 </section>
 
 <style>
@@ -16,12 +16,5 @@
 		display: flex;
 		flex-direction: column;
 		height: 100vh;
-	}
-
-	.hero {
-		background-size: cover;
-		background-position: center;
-		background-repeat: no-repeat;
-		background-image: url("https://ik.imagekit.io/saklani/greet-final-battle-alone-illustration.jpg");
 	}
 </style>

@@ -1,5 +1,6 @@
 <script>
-	import logo from '$lib/images/logo_name_white.svg';
+	import logo from "$lib/images/logo_name_white.svg";
+	import Connect from "./connect/Connect.svelte";
 </script>
 
 <header>
@@ -8,7 +9,7 @@
 			<img src={logo} alt="Koma" />
 		</a>
 	</div>
-
+	<Connect />
 </header>
 
 <style>
@@ -16,19 +17,13 @@
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		padding-inline: 16px;
-		height: 64px;
+		padding-inline: 24px;
+		height: 10vh;
 	}
 
-	.corner {
-		width: 3em;
-		height: 3em;
-	}
-
-	.corner img {
+	img {
 		width: 100px;
-		height: 48px;
+		height: 42px;
 		object-fit: contain;
 	}
-
 </style>

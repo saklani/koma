@@ -7,6 +7,11 @@ declare global {
 		// interface PageData {}
 		// interface Platform {}
 	}
+
+	declare interface Window {
+		ethereum: any;
+	}
 }
 
-export {};
+
+export { };
